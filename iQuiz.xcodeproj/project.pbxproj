@@ -13,6 +13,10 @@
 		4733B3612C2F773B00530BB2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4733B3602C2F773B00530BB2 /* Base */; };
 		4733B3632C2F773C00530BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4733B3622C2F773C00530BB2 /* Assets.xcassets */; };
 		4733B3662C2F773C00530BB2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4733B3652C2F773C00530BB2 /* Base */; };
+		4733B36E2C2F81EF00530BB2 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4733B36D2C2F81EF00530BB2 /* QuestaoViewController.swift */; };
+		4733B3702C30369900530BB2 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4733B36F2C30369900530BB2 /* Questao.swift */; };
+		4733B3722C303D8E00530BB2 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4733B3712C303D8E00530BB2 /* DesempenhoViewController.swift */; };
+		4733B3772C304D8C00530BB2 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4733B3762C304D8C00530BB2 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4733B3622C2F773C00530BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4733B3652C2F773C00530BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4733B3672C2F773C00530BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4733B36D2C2F81EF00530BB2 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
+		4733B36F2C30369900530BB2 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		4733B3712C303D8E00530BB2 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
+		4733B3762C304D8C00530BB2 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,44 @@
 		4733B3582C2F773B00530BB2 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				4733B3742C304C6900530BB2 /* Modelo */,
+				4733B3752C304D4E00530BB2 /* Extensões */,
+				4733B3732C304C5400530BB2 /* ViewController */,
 				4733B3592C2F773B00530BB2 /* AppDelegate.swift */,
 				4733B35B2C2F773B00530BB2 /* SceneDelegate.swift */,
-				4733B35D2C2F773B00530BB2 /* ViewController.swift */,
 				4733B35F2C2F773B00530BB2 /* Main.storyboard */,
 				4733B3622C2F773C00530BB2 /* Assets.xcassets */,
 				4733B3642C2F773C00530BB2 /* LaunchScreen.storyboard */,
 				4733B3672C2F773C00530BB2 /* Info.plist */,
 			);
 			path = iQuiz;
+			sourceTree = "<group>";
+		};
+		4733B3732C304C5400530BB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4733B35D2C2F773B00530BB2 /* ViewController.swift */,
+				4733B36D2C2F81EF00530BB2 /* QuestaoViewController.swift */,
+				4733B3712C303D8E00530BB2 /* DesempenhoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4733B3742C304C6900530BB2 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				4733B36F2C30369900530BB2 /* Questao.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		4733B3752C304D4E00530BB2 /* Extensões */ = {
+			isa = PBXGroup;
+			children = (
+				4733B3762C304D8C00530BB2 /* UIColor+.swift */,
+			);
+			name = "Extensões";
+			path = "Extensões";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +178,10 @@
 				4733B35E2C2F773B00530BB2 /* ViewController.swift in Sources */,
 				4733B35A2C2F773B00530BB2 /* AppDelegate.swift in Sources */,
 				4733B35C2C2F773B00530BB2 /* SceneDelegate.swift in Sources */,
+				4733B3702C30369900530BB2 /* Questao.swift in Sources */,
+				4733B3722C303D8E00530BB2 /* DesempenhoViewController.swift in Sources */,
+				4733B36E2C2F81EF00530BB2 /* QuestaoViewController.swift in Sources */,
+				4733B3772C304D8C00530BB2 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
